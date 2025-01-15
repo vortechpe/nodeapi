@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Rutas de ejemplo
 app.get('/api', (req, res) => {
-    res.send({ message: 'Bienvenido a mi API REST' });
+    res.send({ message: 'Bienvenido a mi API REST - VORTECH' });
 });
 
 app.get('/api/items', (req, res) => {
